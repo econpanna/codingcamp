@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Redirect</title>
+    <script>
+    var pair = location.href.split('?')[1];
+    var redirUrl = decodeURIComponent(pair.split('=')[1]);
+    window.parent.location.href = redirUrl;
+    </script>
+</head>
+<body>    
+</body>
+</html>
