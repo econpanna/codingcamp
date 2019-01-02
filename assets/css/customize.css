@@ -1,5 +1,11 @@
+/* carousel 슬라이딩하는 화살표가 항상 보이도록 수정 */
 .arrow-on-hover .owl-next,
 .arrow-on-hover .owl-prev {
     opacity: 1
 }
+/* IE에서 홈 상단의 배너 글자가 줄 바꿈이 안되는 문제 수정 */
+.mb-1, .my-1 {
+    word-break: break-all;
+    width: 100%;
+} 
 /*# sourceMappingURL=customize.css.map */
