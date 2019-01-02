@@ -1,2 +1,5 @@
-
+.arrow-on-hover .owl-next,
+.arrow-on-hover .owl-prev {
+    opacity: 1
+}
 /*# sourceMappingURL=customize.css.map */
